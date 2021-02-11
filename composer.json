@@ -18,14 +18,14 @@
     "repositories": [
         {
           "type": "vcs",
-          "url": "https://github.com/onelogin/php-saml"
+          "url": "https://github.com/rozenlicht/php-saml"
         }
     ],
     "require": {
         "php": ">=5.5.0",
         "ext-openssl": "*",
         "illuminate/support": ">=5.0.0",
-        "onelogin/php-saml": "3.6.0.x-dev"
+        "onelogin/php-saml": "dev-bugfix"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",
